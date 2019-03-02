@@ -145,28 +145,28 @@ VOCABULARY = {
     'member_pl' : 'Mitglieder',
     'assignment' : 'Arbeitseinsatz',
     'assignment_pl' : 'Arbeitseinsätze',
-    'share' : 'Anteilschein',
-    'share_pl' : 'Anteilscheine',
-    'subscription' : 'Abo',
-    'subscription_pl' : 'Abos',
-    'co_member' : 'Mitabonnent',
-    'co_member_pl' : 'Mitabonnenten',
-    'price' : 'Betriebsbeitrag',
+    'share' : 'Kautions-Anteil',
+    'share_pl' : 'Kautions-Anteile',
+    'subscription' : 'Mietobjekt',
+    'subscription_pl' : 'Mietobjekte',
+    'co_member' : 'Mitmieter*in',
+    'co_member_pl' : 'Mitmieter*innen',
+    'price' : 'Miete',
     'member_type' : 'Mitglied',
     'member_type_pl' : 'Mitglieder',
-    'depot' : 'Depot',
-    'depot_pl' : 'Depots'
+    'depot' : 'Standort',
+    'depot_pl' : 'Standorte'
 }
-ORGANISATION_NAME = "Verein Co_werk 5"
-ORGANISATION_NAME_CONFIG = {"type" : "",
-    "gender" : ""}
+ORGANISATION_NAME = "Co_werk 5"
+ORGANISATION_NAME_CONFIG = {"type" : "Verein",
+    "gender" : "M"}
 ORGANISATION_LONG_NAME = "Verein Co_werk 5"
 ORGANISATION_ADDRESS = {"name":"Verein Co_werk 5", 
             "street" : "Geerenweg",
             "number" : "2",
             "zip" : "8048",
             "city" : "Zürich",
-            "extra" : "Tex Tschurtschenthaler"}
+            "extra" : ""}
 ORGANISATION_PHONE =''
 ORGANISATION_BANK_CONNECTION = {"PC" : "89-675975-4",
             "IBAN" : "CH84 0900 0000 8967 5975 4",
@@ -180,14 +180,14 @@ ADMINPORTAL_SERVER_URL = "unser.cowerk5.ch"
 BUSINESS_REGULATIONS = ""
 BYLAWS = ""
 MAIL_TEMPLATE = "mails/email.html"
-STYLE_SHEET = "/static/css/personal.css"
-BOOTSTRAP = "/static/external/bootstrap-3.3.1/css/bootstrap.min.css"
+STYLE_SHEET = "/static/css/cowerk5.css"
+
 FAVICON = "/static/img/favicono.ico"
 FAQ_DOC = ""
 EXTRA_SUB_INFO = ""
 ACTIVITY_AREA_INFO = ""
-SHARE_PRICE = "125"
-ENABLE_SHARES = True
+SHARE_PRICE = "25"
+ENABLE_SHARES = False
 BASE_FEE = ""
 CURRENCY = "CHF"
 ASSIGNMENT_UNIT = "ENTITY"
