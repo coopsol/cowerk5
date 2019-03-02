@@ -174,7 +174,7 @@ ORGANISATION_BANK_CONNECTION = {"PC" : "89-675975-4",
             "NAME" : "Postfinance",
             "ESR" : ""}
 INFO_EMAIL = "tex@cowerk5.ch"
-SERVER_URL = "www.cowerk5.org"
+SERVER_URL = "www.cowerk5.ch"
 ADMINPORTAL_NAME = "unser.cowerk5.ch"
 ADMINPORTAL_SERVER_URL = "unser.cowerk5.ch"
 BUSINESS_REGULATIONS = ""
@@ -227,3 +227,4 @@ EMAILS = {
     'b_sub': 'mails/bill_sub.txt',
     'b_esub': 'mails/bill_extrasub.txt'
 }
+ENABLE_REGISTRATION=False
